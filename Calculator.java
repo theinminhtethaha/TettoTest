@@ -16,6 +16,23 @@ public class Calculator {
 
         double result = 0.0;
 
+        // todo: do the calculation here
+        if (operator.equals("+")) {
+            result = num1 + num2;
+        } else if (operator.equals("-")) {
+            result = num1 - num2;
+        } else if (operator.equals("*")) {
+            result = num1 * num2;
+        } else if (operator.equals("/")) {
+            result = num1 / num2;
+            // todo: tell user num2 should not be zero
+        } else {
+            System.out.println("Invalid operator.");
+        }
+
         System.out.println(num1 + " " + operator + " " + num2 + " = " + result);
     }
+
+    // todo: move the calculation here
+    // public double doCalculation() {}
 }
