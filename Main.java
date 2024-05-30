@@ -7,5 +7,7 @@ public class Main {
 
         System.out.println(Min.callName());
         System.out.println(ChocoShoon.callName());
+
+        // 123
     }
 }
